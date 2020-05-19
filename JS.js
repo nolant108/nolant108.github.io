@@ -1,5 +1,8 @@
 var request = new XMLHttpRequest();
 
+Access-Control-Allow-Origin;
+
+
 request.open('GET', 'https://frc-api.firstinspires.org/v2.0/');
 
 request.setRequestHeader('Accept', 'application/xml');
