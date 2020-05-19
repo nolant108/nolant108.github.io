@@ -11,5 +11,3 @@ request.onreadystatechange = function () {
     console.log('Body:', this.responseText);
   }
 };
-
-request.send();
